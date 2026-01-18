@@ -29,7 +29,7 @@ function generateAccessToken(id, email) {
         "email": email
     }, process.env.TOKEN_SECRET, {
         // m = minutes, h = hours, s = seconds, d = days, w = weeks
-        "expiresIn": "1h"
+        "expiresIn": "8h"
     });
 }
 
